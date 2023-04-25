@@ -1,4 +1,4 @@
-##Overview
+## Overview
 This program reads monthly credit card or other expense account data and categorizes the expenses based on user defined categories. The user is then able to graphically view their expense history and assess it. The program is capable of handling multiple users and accounts. The user may toggle between different accounts in the main view, as well as select different graphing modes.
 
 ## Prerequisites
@@ -29,7 +29,7 @@ understanding of regular expressions. Additionally the user will need:
    OR merely re-write them to fit your needs.
 
    The AccountExpenseHistory class takes two parameters,
-   `michael_expenses = AccountExpenseHistory (label = "michael", data_path = "michael_data_path")`
+   ```michael_expenses = AccountExpenseHistory (label = "michael", data_path = "michael_data_path")```
    The label is a string to identify the account with, the data_path is a string path to the 
    data directory for the account (a subdirectory of Data).
 

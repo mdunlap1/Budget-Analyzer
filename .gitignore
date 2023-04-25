@@ -1,0 +1,6 @@
+# Ignore all items
+*
+# Except for
+!*.py
+!.gitignore
+!*.md

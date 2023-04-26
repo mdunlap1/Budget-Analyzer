@@ -1,0 +1,6 @@
+Using config file: /Users/Michael/Desktop/Envelop/Budget Analyzer/Config/Demo Config/John
+RESTAURANT 3
+RESTAURANT 2
+GAS!
+RESTAURANT 1
+ONLINE RETAIL THING

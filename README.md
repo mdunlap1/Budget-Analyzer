@@ -72,3 +72,4 @@ understanding of regular expressions. Additionally the user will need:
 
 ## Demo
 There are demo data and configuration files that can be used with demo.py.
+The missing data for Graham is intentional and meant to demo how that condition is handled (with a popup).

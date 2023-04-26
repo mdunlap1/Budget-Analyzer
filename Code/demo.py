@@ -1,5 +1,5 @@
 #######################################################################################
-#  BugetAnalyzer Application
+#  BugetAnalyzer Application Demo
 #  Copyright (C) 2022 - 2023 Michael Dunlap
 #
 #  This program is free software; you can redistribute it and/or modify
@@ -34,9 +34,10 @@ import re
 import sys
 import csv
 import numpy as np
-## Importing matplotlib causes problems if done here
-## we will import matplotlib at runtime when needed 
-## as this does not seem to cause problems
+## Importing matplotlib causes problems if done here.
+## We will put the import for matplotlib in the body
+## of the graphing functions, as this does not seem to 
+## cause problems.
 
 PROJ_DIR = # TODO put the project directory here
 

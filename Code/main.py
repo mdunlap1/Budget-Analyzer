@@ -460,10 +460,11 @@ class ExpenseHistoryAnalyzer:
         path = account.path
         os.chdir(path)
         uncategorized_locations = set()
+        date_set = set(self.dates)
         data_idx = 0
         for a_idx in range(len(account.dates)):
             date = account.dates[a_idx]
-            if date not in self.dates:
+            if date not in date_set:
                 continue
             else:
                 while (self.dates[data_idx] != date):

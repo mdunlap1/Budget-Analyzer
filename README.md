@@ -66,7 +66,7 @@ understanding of regular expressions. Additionally the user will need:
 10. Run the program and check for:
 - Missing data (which will display as a popup message)
 - Uncategorized locations (which will show up in that directory)
-- Regex collisions (instances of a location matching more than one regex.
+- Regex collisions (instances of a location matching more than one regex).
 
 11) Edit the configuration files and repeat steps 10 and 11 until the things are being categorized as desired.
 

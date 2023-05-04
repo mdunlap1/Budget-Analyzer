@@ -29,7 +29,7 @@ understanding of regular expressions. Additionally the user will need:
    OR merely re-write them to fit your needs.
 
    The AccountExpenseHistory class takes two parameters,
-   ```michael_expenses = AccountExpenseHistory (label = "michael", data_path = "michael_data_path")```
+   ```michael_expenses = AccountExpenseHistory (label = "michael", data_path = michael_data_path)```
    The label is a string to identify the account with, the data_path is a string path to the 
    data directory for the account (a subdirectory of Data).
 
@@ -53,11 +53,11 @@ understanding of regular expressions. Additionally the user will need:
    and ExpenseHistoryAnalyzer classes in build.
 
    The ExpenseHistoryAnalyzer class takes the folowing parameters:
-   -label (a string giving the analyzer a name, used by the GUI)
-   -target_total_limit (float representing a target total limit for expenses)
-   -config_path (a string path to the directory containing the config.txt file)
-   -intersect_account_dates (boolean, if True (default), the analyzer will only evaluate the intersection of the dates, if False the union)
-   -one or more AccountExpenseHistory objects as labeled keyword arguments
+   - label (a string giving the analyzer a name, used by the GUI)
+   - target_total_limit (float representing a target total limit for expenses)
+   - config_path (a string path to the directory containing the config.txt file)
+   - intersect_account_dates (boolean, if True (default), the analyzer will only evaluate the intersection of the dates, if False the union)
+   - one or more AccountExpenseHistory objects as labeled keyword arguments
 
 8. Put all the AccountExpenseHistory objects into a tuple called accounts. This will enable the error check for missing data (gaps).
 

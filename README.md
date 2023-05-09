@@ -34,10 +34,12 @@ understanding of regular expressions. Additionally the user will need:
    data directory for the account (a subdirectory of Data).
 
    The purpose of AccountExpenseHistory is to parse the user data and store it in an object for 
-   use with an ExpenseHistoryAnalyzer object.
+   use with an ExpenseHistoryAnalyzer object. If a user has multiple accounts from different institutions,
+   then multiple subclasses of AccountExpenseHistory can be loaded into an ExpenseHistoryAnalyzer class and
+   it will work all the same.
 
-   The user needs to override this themselves because the manner in which the data is parsed will
-   differ depending on the source.
+   The user needs to override the aforementioned methods themselves because the manner in which the data is 
+   parsed will vary depending on the source.
 
 5. The program can aggregate multiple accounts into a single analyzer, each analyzer needs a configuration file. 
    Make a directory for each analyzer in the Config folder.
@@ -75,3 +77,6 @@ There are demo data and configuration files that can be used with demo.py.
 The missing data for Graham is intentional and meant to demo how that condition is handled (with a popup).
 Similarly there are locations that match more than one regex in the config file and uncategorized locations 
 for demonstration purposes.
+
+## Future Development Ideas
+- A MergedExpenseHistory class to combine multiple accounts into one account with one label.

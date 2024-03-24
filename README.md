@@ -11,24 +11,24 @@ understanding of regular expressions. Additionally the user will need:
 
 ## Use
 After setting up the program (see Setup section below) and launching the program, the user will see a menu screen:
-![main menu](Images/main menu.png)
+![main menu]("Images/main menu.png")
 
 If there is missing data for any account this will show as warning pop-up:
-![pop warning user of missing data for an account](Images/missing data popup.png)
+![pop warning user of missing data for an account]("Images/missing data popup.png")
 
 There are different graph modes that can be selected from a drop down menu:
-![select graphing mode](Images/select graphing mode.png)
+![select graphing mode]("Images/select graphing mode.png")
 
 The user can also select which source view expense data from:
-![select data source](Images/select source.png)
+![select data source]("Images/select source.png")
 
 Note that the sources here correspond to ExpenseHistoryAnalyzer class objects and we can have multiple AccountExpenseHistory objects combined into one ExpenseHistoryAnalyzer object. In the demo the source "pythons" combines the AccountExpenseHistory of each of the pythons represented in the demo. 
 
 Some of the graphing modes allow for multiple selections of categories while others do not. For example the mode against-total allows for mutiple selection:
-![demonstration of multiple selection of categories](Images/multi-selection.png)
+![demonstration of multiple selection of categories]("Images/multi-selection.png")
 
 Clicking the graph button in the bottom right corner then opens up a graph of the data created using matplotlib. 
-![selected categories graphed against total](Images/against_total graphing mode.png)
+![selected categories graphed against total]("Images/against_total graphing mode.png")
 
 ## Setup
 0. Download the program folders and save them somewhere you intend to keep them. Then set up the PROJ_DIR in main.py and demo.py

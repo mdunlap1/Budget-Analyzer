@@ -25,7 +25,7 @@ There are different graph modes that can be selected from a drop down menu:
 The user can also select which source to view expense data from:
 ![select data source](Images/select-source.png)
 
-Note that the sources here correspond to ExpenseHistoryAnalyzer class objects and we load multiple AccountExpenseHistory objects into them. In the demo the source "pythons" combines the expenses of each of the pythons represented in the demo. 
+Note that the sources here correspond to ExpenseHistoryAnalyzer class objects and we can load multiple AccountExpenseHistory objects into them if we want to. In the demo the source pythons combines the expenses of Graham, John, Michael, Eric and Terry.  
 
 
 Some of the graphing modes allow for multiple selections of categories while others do not. For example the mode against-total allows for mutiple selection:
